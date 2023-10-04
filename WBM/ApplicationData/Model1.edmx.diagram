@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26068529e00f48af99109c41e8bfce39" Name="WBM" ZoomLevel="72" >
+        <EntityTypeShape EntityType="Model1.AR" Width="1.5" PointX="3" PointY="4.5" />
+        <EntityTypeShape EntityType="Model1.ArchiveA" Width="1.5" PointX="5.25" PointY="8.5" />
+        <EntityTypeShape EntityType="Model1.ArchiveAR" Width="1.5" PointX="5.25" PointY="5" />
+        <EntityTypeShape EntityType="Model1.ArchiveS" Width="1.5" PointX="5.25" PointY="11.75" />
+        <EntityTypeShape EntityType="Model1.Artist" Width="1.5" PointX="3" PointY="10" />
+        <EntityTypeShape EntityType="Model1.Role" Width="1.5" PointX="0.75" PointY="8.875" />
+        <EntityTypeShape EntityType="Model1.Songs" Width="1.5" PointX="7.5" PointY="11.125" />
+        <EntityTypeShape EntityType="Model1.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model1.ARArtist" Width="1.5" PointX="8.25" PointY="8" />
+        <AssociationConnector Association="Model1.FK_AR_Role" />
+        <AssociationConnector Association="Model1.FK_ARArtist_AR" />
+        <AssociationConnector Association="Model1.FK_ARArtist_AR1" />
+        <AssociationConnector Association="Model1.FK_ArchiveAR_AR" />
+        <AssociationConnector Association="Model1.FK_ArchiveA_Artist" />
+        <AssociationConnector Association="Model1.FK_ArchiveS_Artist" />
+        <AssociationConnector Association="Model1.FK_Songs_ArchiveS" />
+        <AssociationConnector Association="Model1.FK_ARArtist_Artist" />
+        <AssociationConnector Association="Model1.FK_Artist_Role" />
+        <AssociationConnector Association="Model1.FK_Songs_Artist" />
+        <AssociationConnector Association="Model1.ARSongs" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
